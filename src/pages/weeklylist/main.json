@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "汇报",
+  "usingComponents": {
+    "wemark": "../../static/wemark/wemark"
+  }
+}

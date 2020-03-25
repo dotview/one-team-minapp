@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/my/main",
+    "pages/login/main",
+    "pages/register/main",
+    "pages/weeklylist/main",
+    "pages/weeklyanswers/main",
+    "pages/team/main",
+    "pages/notice/main",
+    "pages/myweeklylist/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+      "color": "#bcc1cd",
+      "selectedColor": "#343441",
+      "backgroundColor": "#fff",
+      "list": [{
+        "pagePath": "pages/weeklylist/main",
+        "text": "汇报",
+        "iconPath": "/static/images/tab-bar/report.png",
+        "selectedIconPath": "/static/images/tab-bar/report_checked.png"
+      }, {
+        "pagePath": "pages/team/main",
+        "text": "团队",
+        "iconPath": "/static/images/tab-bar/team.png",
+        "selectedIconPath": "/static/images/tab-bar/team_checked.png"
+      }, {
+        "pagePath": "pages/notice/main",
+        "text": "通知",
+        "iconPath": "/static/images/tab-bar/notice.png",
+        "selectedIconPath": "/static/images/tab-bar/notice_checked.png"
+      }, {
+        "pagePath": "pages/my/main",
+        "text": "我的",
+        "iconPath": "/static/images/tab-bar/my.png",
+        "selectedIconPath": "/static/images/tab-bar/my_checked.png"
+      }]
+    }
+}
